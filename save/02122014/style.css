@@ -1,0 +1,178 @@
+body{
+	min-width:1100px;
+	margin: auto;
+}
+
+/* -- Header -- */
+#scroll{
+	position: fixed;
+}
+
+header{
+	left: 0;
+    top: 0;
+	width: 100%;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+header img{
+	vertical-align: top;
+}
+
+nav{
+	display: inline-block;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+}
+
+nav ul li{
+	float: left;
+}
+
+nav a{
+	line-height:78px;
+	padding-left:20px;
+	padding-right:20px;
+	display: block;
+	color: #00aebd;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #FFFFFF;
+	background-color: #e4e6e9;
+}
+
+/* Div elements  */
+
+#banner {
+	padding-left: 100px;
+	background-color: #e4e6e9;
+	background-size: cover;
+}
+
+
+#who{
+	margin: auto;
+	width: 60%;
+	text-align: center;
+}
+
+#who ul{
+	list-style-type: none;
+	
+}
+
+#who ul li{
+	display: inline-block;
+	width: 340px;
+}
+
+#temoignage{
+	height: 700px;
+	
+	text-align: center;
+	
+	background-color: #e4e6e9;
+	background-size: auto 700px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(src/temoignage-back.png);
+}
+
+#inner-temoignage{
+	width: 50%;
+	margin: auto;
+}
+
+#citation{
+	font-size: 1.8em;
+	color: #86CFCD;
+}
+
+#nom{
+	font-size: 2em;
+	margin:0;
+	color: #005169;
+}
+
+#fonction{
+	margin:0;
+	color: #005169;
+}
+
+#news{
+	margin: auto;
+	padding-top: 100px;
+	width: 50%;
+	text-align: center;
+}
+
+#forum{
+	padding-top: 100px;
+	text-align: center;
+	background-color: #491767;
+}
+
+#about-forum{
+	width: 70%;
+	margin: auto;
+	text-align: center;
+}
+
+#contact{
+	padding-top: 100px;
+	width: 70%;
+	margin: auto;
+	background-color: #F5F6F7;
+}
+
+#contact h2{
+	color: #00AEBD;
+}
+
+#contact-head{
+	text-align: center;
+}
+
+#info{
+	width: 50%;
+	display: inline-block;
+}
+
+#info ul{
+	list-style-type: none;
+}
+
+#info ul li{
+	display: block;
+	width: 100%;
+	margin: 2px;
+}
+
+#info input{
+	width: 80%;
+}
+
+#info textarea{
+	width: 80%;
+	height: 300px;
+	resize: none;
+}
+
+#coordonnees{
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#footer{
+	background-color: #00AEBD;
+	color: #FFFFFF;
+}
