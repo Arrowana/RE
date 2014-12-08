@@ -56,25 +56,30 @@ header nav a:hover{
 			Div elements 
 	---------------------------- */
 
-#banner {
-	height: 700px;
-
+#banner{
+	margin: auto;
+	width:100%;
 	background-color: #e4e6e9;
-	background-size: auto 700px;
-	background-repeat: no-repeat;
-	background-image: url(src/banner.png);
+	position: relative;
+}
+
+#banner img{
+	height: 700px;
+	vertical-align: bottom;
 }
 
 #banner-quote{
-	margin: 0;
-	padding-left: 60%;
-	width: 10%;
+	width: 20%;
+	position: absolute;
+	top: 50%;
+	right: 10%;
 	color: #159BA0;
 }
 
 /* div who */
 
 #who{
+	padding-top: 50px;
 	margin: auto;
 	width: 70%;
 	text-align: center;
@@ -99,6 +104,17 @@ header nav a:hover{
 #who li img{
 	width: 90%;
 	height: auto;
+}
+
+#who a{
+	display: inline-block;
+	margin: 10px;
+	padding: 5px;
+	border: 2px solid #00AEBD;
+	color: #00AEBD;
+	border-radius: 5px;
+	text-transform: uppercase;
+	text-decoration: none;
 }
 
 #temoignage{
@@ -137,6 +153,7 @@ header nav a:hover{
 /* div News actualités */
 
 #news{
+	padding-top: 50px;
 	margin: auto;
 	width: 70%;
 }
@@ -148,40 +165,28 @@ header nav a:hover{
 	text-align: center;
 }
 
-#news ul{
+#slideshow{
 	list-style-type: none;
 	text-align: center;
-	
+	overflow: hidden;
+	white-space: nowrap; /* Pas de carriage return !!!!!!!*/
+	height: 500px;
 }
 
-#news ul li{
-	display: table-cell;
-	margin-right: 20px;
+.box{
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
 	width: 30%;
-	height: 500px;
+	height: 300px;
 	vertical-align: top;
 	text-align: left;
-	position: relative;
-}
-
-#news ul li a{
-    display: block;
-	position: absolute;
-	bottom: 0;
+	white-space: normal;
 }
 
 .event-image{
 	width: 90%;
 	height: auto;
-}
-
-#news nav{
-	margin: auto;
-	text-align: center;
-}
-
-#news nav img{
-	height: 100px;
 }
 
 .event-date{
@@ -196,23 +201,92 @@ header nav a:hover{
 	color: #00aebd;
 }
 
+.box a{
+	display: inline-block;
+	padding: 5px;
+	border: 2px solid #00AEBD;
+	color: #00AEBD;
+	border-radius: 5px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+#navigator{
+	margin: auto;
+	width: 20%;
+	text-align: center;
+}
+
+#navigator a{
+	display: inline-block;
+}
+
+#navigator a:hover{
+	background-color: #00aebd;
+}
+
+#navigator img{
+	height: 70px;
+}
+
+/* div forum */
+
 #forum{
+	padding-top: 50px;
+	margin: auto;
 	text-align: center;
 	background-color: #491767;
+	position: relative;
+}
+
+#forum img{
+	vertical-align: bottom;
+}
+
+#countdown{
+	width: 25%;
+	position: absolute;
+	top: 25%;
+	right: 15%;
+}
+
+#countdown h1,h2{
+	color: #00AEBD;
+}
+
+#countdown p{
+	color: white;
 }
 
 #about-forum{
+	padding-top: 50px;
 	width: 70%;
 	margin: auto;
 	text-align: center;
+}
+
+#forum-contact{
+	margin: auto;
+	width: 85%;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.nanana{
+	display: inline-block;
+	width: 30%;
+}
+
+.nanana img{
+	width: 100%;
 }
 
 /* div contact */
 
 #contact{
-	padding-top: 100px;
 	width: 70%;
 	margin: auto;
+	padding-top: 50px;
 	background-color: #F5F6F7;
 }
 
@@ -258,6 +332,7 @@ header nav a:hover{
 /* div footer */
 
 #footer{
+	padding: 10px;
 	background-color: #00AEBD;
 	color: #FFFFFF;
 }
