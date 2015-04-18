@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<meta charset ="utf-8" />
-	<link rel="stylesheet" href ="style.css " />
-	<title>Test RI</title>
+		<meta charset ="utf-8" />
+		<link rel="stylesheet" href ="style.css " />
+		<title>Test RI</title>
 	</head>
 		<body>
 			<header id="scroll">
 				<img src="src/logoRE.png" height="80px" />
 				<nav>
 					<ul>
-						<li><a href="#accueil">ACCUEIL</a></li>
+						<li><a href="index.php#banner">ACCUEIL</a></li>
 						<li><a href="#who">QUI SOMMES-NOUS ?</a></li>
 						<li><a href="#news">ACTUALITÉS</a></li>
 						<li><a href="#forum">FORUM 2015</a></li>
@@ -87,8 +87,7 @@
 					<img src="src/photo-dir.png" height="200px"/>
 					<p id="citation">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-					Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
 					<p id="nom">Pierre Durand</p>
 					<p id="fonction">Directeur général - DRIFFUS</p>
 				</div>
@@ -108,7 +107,7 @@
 						<p class="event-title">Crêpe party</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-						<a href="">Lire la suite</a>
+						<a href="event.php">Lire la suite</a>
 					</div>
 					<div class="box">
 						<img class="event-image" src="src/actu2.png" />
@@ -170,12 +169,60 @@
 			</div>
 
 			<div id="forum-contact">
-				<div class="nanana"><img src="src/actu1.png" /></div>
-				<div class="nanana"><img src="src/actu1.png" /></div>
-				<div class="nanana"><img src="src/actu1.png" /></div>
-				<div class="nanana"><img src="src/actu1.png" /></div>
-				<div class="nanana"><img src="src/actu1.png" /></div>
-				<div class="nanana"><img src="src/actu1.png" /></div>
+				<figure>
+					<img src="src/part1.png" alt="img01">
+					<figcaption>
+						<h3>Devenir partenaires</h3>
+						<span>Options et exclusivité</span>
+						<a href="#"></a>
+					</figcaption>
+				</figure>
+				
+				<figure>
+					<img src="src/part2.png" alt="img01">
+					<figcaption>
+						<h3>Devenir partenaires</h3>
+						<span>Options et exclusivité</span>
+						<a href="#"></a>
+					</figcaption>
+				</figure>
+				
+				<figure>
+					<img src="src/part3.png" alt="img01">
+					<figcaption>
+						<h3>Devenir partenaires</h3>
+						<span>Options et exclusivité</span>
+						<a href="#"></a>
+					</figcaption>
+				</figure>
+				
+				<figure>
+					<img src="src/part4.png" alt="img01">
+					<figcaption>
+						<h3>Devenir partenaires</h3>
+						<span>Options et exclusivité</span>
+						<a href="#"></a>
+					</figcaption>
+				</figure>
+				
+				<figure>
+					<img src="src/part5.png" alt="img01">
+					<figcaption>
+						<h3>Devenir partenaires</h3>
+						<span>Options et exclusivité</span>
+						<a href="#"></a>
+					</figcaption>
+				</figure>
+				
+				<figure>
+					<img src="src/part6.png" alt="img01">
+					<figcaption>
+						<h3>Devenir partenaires</h3>
+						<span>Options et exclusivité</span>
+						<a href="#"></a>
+					</figcaption>
+				</figure>
+				
 			</div>
 			
 			<div id="contact">

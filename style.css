@@ -1,10 +1,15 @@
-body{
+@font-face {
+    font-family: 'Avenir';
+    src: url('src/font/Avenir-Medium.ttf');
+}
 
+body{
+	font-family: Avenir;
 	margin: auto;
 }
 
 /* -- Header -- */
-#scroll{
+#scroll, #scroll-event{
 	position: fixed;
 	z-index: 1000;
 }
@@ -15,6 +20,10 @@ header{
 	width: 100%;
 	background-color: #FFFFFF;
 	text-align: center;
+}
+
+#scroll-event{
+	background-color: #F5F6F7;
 }
 
 header img{
@@ -170,7 +179,7 @@ header nav a:hover{
 	text-align: center;
 	overflow: hidden;
 	white-space: nowrap; /* Pas de carriage return !!!!!!!*/
-	height: 500px;
+	height: 550px;
 }
 
 .box{
@@ -272,13 +281,53 @@ header nav a:hover{
 	padding-bottom: 50px;
 }
 
-.nanana{
+#forum-contact figure{
+	margin: 0;
+	margin-bottom: 5px;
 	display: inline-block;
+	position: relative;
 	width: 30%;
+	background-color: #00AEBD;
 }
 
-.nanana img{
+#forum-contact figure img{
 	width: 100%;
+	vertical-align: bottom;
+}
+
+#forum-contact figure:hover img{
+	transition: opacity 0.4s;
+	opacity: 0.5;
+}	
+
+#forum-contact figcaption{
+	position: absolute;
+	top: 10%;
+	text-align: center;
+	width: 100%;
+	visibility: hidden;
+}
+
+#forum-contact figure:hover figcaption{
+	visibility: visible;
+	transition: visibility 0.4s;
+}
+
+#forum-contact a{
+	display: block;
+	background: url(src/link.png) no-repeat center;
+	height: 50px;
+}
+
+#forum-contact h3{
+	font-size: 2em;
+	color: white;
+}
+
+#forum-contact span{
+	display: block;
+	color: white;
+	margin-bottom: 5%;
 }
 
 /* div contact */
@@ -335,4 +384,75 @@ header nav a:hover{
 	padding: 10px;
 	background-color: #00AEBD;
 	color: #FFFFFF;
+}
+
+/* Event page */
+
+section{
+	margin: auto;
+	width: 85%;
+	padding-top: 20px;
+}
+
+article{
+	display: inline-block;
+	text-align: center;
+	margin: auto;
+	width: 75%;
+}
+
+article h1{
+	font-size: 3em;
+	color: #00AEBD;
+	margin: 0;
+}
+
+#event-subtitle{
+	font-size: large;
+	color: #005169;
+}
+
+#event-page-image{
+	width: 100%;
+	height: auto;	
+}
+
+#event-content{
+	text-align: left;
+}
+
+#menu{
+	padding-top: 100px;
+	padding-left: 50px;
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+}
+
+/* Partenaire page */
+
+#partenaire{
+	margin: auto;
+	width: 80%;
+	
+}
+
+#partenaire h1{
+text-align: center;
+}
+
+#partenaire img{
+	width: 100%;
+}
+
+#partenaire-info{
+	display: inline-block;
+	width: 70%;
+}
+
+#partenaire-links{
+	display: inline-block;
+	width: 29%;
+	vertical-align: top;
+	padding-top: 50px;
 }
